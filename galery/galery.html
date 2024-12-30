@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil - SMKN4 TASIKMALAYA</title>
+
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/css/main.css" rel="stylesheet">
+  <style>
+    /* Custom Navbar Styles */
+    nav.navbar {
+      background-color: #000000; /* Black background */
+    }
+
+    nav.navbar .navbar-brand {
+      color: white !important;
+      /* White text for the brand */
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    nav.navbar .navbar-nav .nav-link {
+      color: white !important;
+      /* White text for nav links */
+      font-size: 16px;
+    }
+
+    nav.navbar .navbar-nav .nav-link:hover {
+      color: #ffd700 !important;
+      /* Gold color on hover */
+    }
+
+    /* Navbar on small screens */
+    .navbar-toggler-icon {
+      background-color: white;
+      /* White hamburger icon */
+    }
+
+    /* Styling for section */
+    #profil {
+      padding: 50px 0;
+      background-color: #f4f4f4;
+    }
+
+    #profil h3,
+    #profil h4 {
+      color: #000000;
+      /* Dark blue for headings */
+    }
+
+    #profil p {
+      color: #555;
+      /* Grayish color for the paragraph */
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">SMKN4.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../profil/profil.html">Profil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../berita/berita.html">Berita</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../kontak/kontak.html">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio section">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Galery</h2>
+      <p>Galery SMKN4-TASIKMALAYA</p>
+    </div>
+    <!-- End Section Title -->
+
+    <div class="container">
+      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+        <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">Penghargaan</li>
+          <li data-filter=".filter-product">Safety Riding</li>
+          <li data-filter=".filter-branding">Web</li>
+        </ul><!-- End Portfolio Filters -->
+
+        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+          <!-- Portfolio Item -->
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <img src="../assets/img/masonry-portfolio/juaraa.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Penghargaan 1</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="../assets/img/masonry-portfolio/juaraa.jpg" title="App 1" data-gallery="portfolio-gallery-app"
+                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+          <!-- Additional Portfolio Items can be added here -->
+
+        </div><!-- End Portfolio Container -->
+
+      </div>
+    </div>
+  </section><!-- /Portfolio Section -->
+
+  <!-- Footer -->
+  <footer id="footer" class="footer dark-background">
+    <div class="copyright">
+      <div class="container text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">GP</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
