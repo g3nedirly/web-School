@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galery - SMKN4 TASIKMALAYA</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/css/main.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="..assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <style>
+    /* Custom Navbar Styles */
+    nav.navbar {
+      background-color: #000000;
+    }
+
+    nav.navbar .navbar-brand {
+      color: white !important;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    nav.navbar .navbar-nav .nav-link {
+      color: white !important;
+      font-size: 16px;
+    }
+
+    nav.navbar .navbar-nav .nav-link:hover {
+      color: #ffd700 !important;
+    }
+
+    .navbar-toggler-icon {
+      background-color: white;
+    }
+
+    #profil {
+      padding: 50px 0;
+      background-color: #f4f4f4;
+    }
+
+    #profil h3,
+    #profil h4 {
+      color: #000000;
+    }
+
+    #profil p {
+      color: #555;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">SMKN4.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="../profil/profil.html">Profil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="../berita/berita.html">Berita</a></li>
+          <li class="nav-item"><a class="nav-link" href="../kontak/kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="portfolio" class="portfolio section">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Galeri</h2>
+      <p>Galeri SMKN4-TASIKMALAYA</p>
+    </div>
+
+    <div class="container">
+      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+        <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+        </ul>
+
+        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+          <!-- Portfolio Items -->
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <img src="../assets/img/masonry-portfolio/juaraa2.jpg" class="img-fluid" alt="Penghargaan 1">
+            <div class="portfolio-info">
+              <h4>Penghargaan 1</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="../assets/img/masonry-portfolio/juaraa2.jpg" title="Penghargaan 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <img src="../assets/img/masonry-portfolio/sekolah.jpg" class="img-fluid" alt="Safety Riding 1">
+            <div class="portfolio-info">
+              <h4>Safety Riding 1</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="../assets/img/masonry-portfolio/sekolah.jpg" title="Safety Riding 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <img src="../assets/img/masonry-portfolio/juaraa3.jpg" class="img-fluid" alt="Branding 1">
+            <div class="portfolio-info">
+              <h4>web 1</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="../assets/img/masonry-portfolio/juaraa3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <img src="../assets/img/masonry-portfolio/juaraa6.jpg" class="img-fluid" alt="Penghargaan 1">
+            <div class="portfolio-info">
+              <h4>Penghargaan 2</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="../assets/img/masonry-portfolio/juaraa6.jpg" title="Penghargaan 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <img src="../assets/img/masonry-portfolio/juaraa4.jpg" class="img-fluid" alt="Safety Riding 1">
+            <div class="portfolio-info">
+              <h4>Safety Riding 2</h4>
+              <p>Lorem ipsum, dolor sit</p>
+              <a href="../assets/img/masonry-portfolio/juaraa4.jpg" title="Safety Riding 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer id="footer" class="footer dark-background">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Hubungi Kami</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>SMKN4-TASIKMALAYA</p>
+              <h4>Jl Depok Kel. Sukamenak Kec. Purbaratu Kota Tasikmalaya 46196</h4>
+              <p class="mt-3"><strong>Phone:</strong> +62 265312059</p>
+              <p><strong>Email:</strong> smkn4-tsm.sch.id</p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/4smkn/photos?locale=id_ID"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/dedirakdedirak?igsh=MWloZGU1aW54ZTU5ZA=="><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#profil">Profil</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Galeri</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#team">Berita</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#contact"> Kontak</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <p>Subscribe and receive the latest news about our school and our services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container text-center">
+        <p>© <span>SMKN</span> <strong class="px-1 sitename">4</strong> <span>TASIKMALAYA</span></p>
+        <div class="credits">
+    
+            Designed by <a href="https://www.instagram.com/dedirakdedirak?igsh=MWloZGU1aW54ZTU5ZA==">Muhamad Dirly</a> Distributed by <a href="https://www.tiktok.com/@teajustteajust?_t=ZS-8sdqSuQvaVT&_r=1">Muhamad Dirly</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
